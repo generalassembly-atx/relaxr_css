@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: Xi Chen
 Developer @GA in Austin, TX
 */
 
@@ -9,4 +9,115 @@ Developer @GA in Austin, TX
 /******************************************
 /* Custom Styles
 /*******************************************/
+header .container{
+  background-image: url(../images/header_bg.jpg);
+  background-repeat:no-repeat;
+  background-size: 750px 550px;
+  height:750px;
+}
+
+.container h2{
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: semibold;
+  color:white;
+  padding:0 200px ;
+
+}
+#benefits{
+  font-family: 'Open Sans';
+  background-color: #f0efef;
+  height: 250px;
+  width: 750px;
+}
+
+#benefits .container h3{
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: semibold;
+  color: #033048;
+  padding:40px;
+}
+
+#benefits .container p{
+  font-family: 'Open Sans';
+  padding:0 30px;
+  font-size: 13px;
+  color:#606161;
+  padding:10px 30px;
+}
+
+#benefits .container li{
+  font-size: 13px;
+  color:#606161;
+  padding: 8px 60px;
+}
+
+header .logo{
+  color: white;
+  font-size: 24px;
+  font-weight:bold;
+  padding:50px;
+  font-family: 'Open Sans';
+}
+
+#testimonial{
+
+  font-family: 'Open Sans';
+  background-image: url(../images/testimonial_bg.jpg);
+  background-repeat:no-repeat;
+  background-size: 750px 550px;
+  height:750px;
+}
+
+#testimonial .container blockquote{
+
+  font-size: 18px;
+  font-style: italic;
+  font-family: 'Open Sans';
+  color:white;
+  padding:80px 180px;
+}
+
+#testimonial .container span{
+  display:block;
+  font-size: 18px;
+  font-weight: semibold;
+  font-family: 'Open Sans';
+  color:white;
+  padding:80px 70px;
+}
+.button.yellow{
+  font-family: 'Open Sans';
+  padding: 20px 60px;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  background:#f9e42e;
+  color: #033048;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin:100px 250px;
+  width:80px;
+}
+
+.button.blue{
+  font-family: 'Open Sans';
+  padding: 20px 60px;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  background:#033048;
+  color: #f9e42e;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin:100px 250px;
+  width:80px;
+}
+
+.logo h4{
+
+}
 
