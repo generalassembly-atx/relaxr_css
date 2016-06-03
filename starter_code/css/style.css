@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: Christian Mansour
 Developer @GA in Austin, TX
 */
 
@@ -10,3 +10,82 @@ Developer @GA in Austin, TX
 /* Custom Styles
 /*******************************************/
 
+header {
+  background-image: url("../images/header_bg.jpg");
+  background-size: 2000px 400px;
+}
+h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+h3 {
+  color: #033048;
+  font-size: 40px;
+  padding: 30px;
+  margin: 100px 0px 20px 60px;
+  font-weight: 10px;
+}
+h4 {
+  color: #f9e42e;
+  font-size: 32px;
+  margin: 60px 895px 40px 895px;
+}
+p {
+  color: #606161;
+  font-size: 24px;
+  padding-left: 30px;
+  margin: 0px 1100px 30px 60px;
+}
+li {
+  color: #606161;
+  font-size: 26px;
+  margin: 10px 1400px 10px 120px;
+}
+blockquote {
+  color: #606161;
+  font-style: italic;
+  font-size: 30px;
+  margin: 140px 550px 10px 550px;
+  text-align: center;
+}
+body {
+  font-family: Open Sans;
+}
+span {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 5px 860px 80px 860px;
+}
+a {
+  background-color: #f9e42e;
+  list-style-type: circle;
+  margin: 180px 875px 0px 875px;
+  flex-direction: row;
+  text-align: center;
+  }
+.logo {
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+  margin-left: 60px;
+}
+.button_yellow {
+  color: #033048;
+  font-size: 32px;
+  text-align: center;
+}
+.button_blue {
+  color: #033048;
+  font-size: 28px;
+}
+.copyright {
+  color: #606161;
+  font-size: 18px;
+  margin: 0px 850px 20px 850px;
+}
+#testimonial {
+  background-image: url("../images/testimonial_bg.jpg")
+}
