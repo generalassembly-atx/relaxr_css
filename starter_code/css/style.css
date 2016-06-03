@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: Christopher Osborne
 Developer @GA in Austin, TX
 */
 
@@ -9,4 +9,86 @@ Developer @GA in Austin, TX
 /******************************************
 /* Custom Styles
 /*******************************************/
+
+body {
+  font-family: open sans;
+}
+
+header {
+  background-image: url(../images/header_bg.jpg);
+  height: 500px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+aside {
+  background-color: #f9e42e
+}
+
+footer {
+  background-color: #121212;
+  color: white;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f9e42e;
+}
+
+ul {
+  display: inline-block;
+}
+
+#testimonial {
+  background-image: url(../images/testimonial_bg.jpg);
+  height: 500px;
+}
+
+#benefits {
+  background-color: #f0efef;
+}
+
+.buttonyellow {
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  color: #033048;
+}
+
+.buttonblue {
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: #033048;
+}
+
+#benefits {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.container {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
 
