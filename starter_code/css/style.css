@@ -4,9 +4,71 @@ Client: Relaxr
 Author: Your Name
 Developer @GA in Austin, TX
 */
+body {
+  color: white;
+  font-family: "Open Sans";
+}
+header {
+  background-image: url("../images/header_bg.jpg");
+  width: 1200px;
+  height: 700px;
+}
+#benefits {
+  background-color: #f0efef;
+  color: #033048;
+}
+#testimonial {
+  background-image: url("../images/testimonial_bg.jpg");
+}
+aside {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 50px;
+}
+aside a{
+  text-align: center;
+  color: white;
+  background-color: #033048;
+}
 
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 30px;
+}
+h4 {
+  color: #f9e42e;
+}
+#benefits .container {
+  align-self: center;
+}
+.buttons {
+  background-color: #f9e42e;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+#testimonial .container blockquote{
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+}
 
-/******************************************
-/* Custom Styles
-/*******************************************/
+footer {
+  background-color: #121212;
+  text-align: center;
+}
+footer ul li{
+  display: inline-block;
+}
+
 
