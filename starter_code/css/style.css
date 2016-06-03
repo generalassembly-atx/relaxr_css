@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: Colin Standefer
 Developer @GA in Austin, TX
 */
 
@@ -10,3 +10,138 @@ Developer @GA in Austin, TX
 /* Custom Styles
 /*******************************************/
 
+body {
+  font-family: Open Sans;
+}
+
+header {
+  background-image: url('../images/header_bg.jpg');
+  height: 500px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  position: relative;
+  left: 350px;
+  top: 125px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  left: 150px;
+  padding: 10px 0px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 13px;
+  position: relative;
+  left: 150px;
+  padding: 10px 0px;
+}
+
+li {
+  font-weight: 300;
+  font-size: 13px;
+  list-style-type: initial;
+  padding: 5px 0px;
+  position: relative;
+  left: 200px;
+}
+
+blockquote {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 400px;
+  padding: 50px 0px;
+}
+
+h4 {
+  color: #F9E42E;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+aside {
+  background-color: #F9E42E;
+  height: 50px;
+}
+
+footer {
+  background-color: #121212;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+#testimonial {
+  background-image: url('../images/testimonial_bg.jpg');
+  height: 200px;
+  color: white;
+  font-style: italic;
+  quotes: initial;
+}
+
+.button.yellow {
+  background-color: #F9E42E;
+  color: #121212;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  position: relative;
+  left: 500px;
+  top: 200px;
+}
+
+.button.blue {
+  background-color: #033048;
+  color: white;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  position: relative;
+  left: 500px;
+  top: 15px;
+}
+
+.pics {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+  padding: 0px 10px;
+
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 9px;
+  color: white;
+  position: relative;
+  left: 510px;
+  padding: 40px 0px;
+}
+
+#benefits {
+  height: 200px;
+  padding: 50px 0px 0px 0px;
+}
