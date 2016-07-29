@@ -9,4 +9,122 @@ Developer @GA in Austin, TX
 /******************************************
 /* Custom Styles
 /*******************************************/
+body{
+  font-family: Open Sans;
+}
 
+header {
+  background-image: url("../images/header_bg.jpg");
+  height: 500px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+h2 {
+  font-weight: semibold;
+  color: #fff;
+  text-align: center;
+}
+h3 {
+  font-weight: 500px;
+  font-size: 20px;
+  color: #033048;
+}
+h4 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+}
+ul {
+  list-style-type: circle;
+}
+
+div {
+  position: relative;
+}
+footer {
+  background-color: #000;
+}
+.benefits {
+  background-color: #f0efef;
+  height: 300px;
+  position: relative;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+ul.benefits {
+  padding-top: 25px;
+}
+.copyright{
+  font-size: 9px;
+  font-style: semibold;
+  text-align: center;
+  color: #fff;
+  padding-top: 25px;
+}
+footer ul {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: inline;
+}
+#testimonial {
+  background-image: url("../images/testimonial_bg.jpg");
+  height: 400px;
+}
+.logo{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.buttonyellow {
+  background-color: #f9e42e;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #033048;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  position: relative;
+}
+.buttonblue {
+  background-color: #033048;
+  border-radius: 5px;
+  color: #606161;
+  padding: 14px 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 200px;
+  align-content: center;
+  margin: 0 auto;
+}
+aside {
+  background-color: #f9e42e;
+  height: 100px;
+  font-size: 12px;
+  font-weight: 700px;
+  align-item: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+blockquote{
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 60px;
+}
+span {
+  font-style: bold;
+}
