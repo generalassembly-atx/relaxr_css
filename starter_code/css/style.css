@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: Shirish Dali
 Developer @GA in Austin, TX
 */
 
@@ -10,3 +10,97 @@ Developer @GA in Austin, TX
 /* Custom Styles
 /*******************************************/
 
+body {
+  font-family: Open Sans;
+}
+
+header {
+  background-image: url(../images/header_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+  text-align: center;
+}
+h1.logo {
+  /*position: relative;*/
+  font-weight: 800;
+  font-size: 48px;
+  text-align: left;
+  color: #ffffff;
+  padding:0px 0px 0px 170px;
+}
+h2 {
+  position: relative;
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 250px;
+  /*padding: 0px 0px 350px 450px;*/
+}
+a.button-yellow {
+  display: inline-block;
+  background-color: #f9e42e;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  padding: 20px 60px;
+  /*margin: 0px 0px 0px 620px;*/
+  border-radius: 5px;
+}
+#benefits{
+  display: block;
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+aside {
+  background-color: #f9e42e;
+  padding: 40px;
+}
+.button-blue{
+  display: inline-block;
+  font-weight: 600;
+  background-color: #033048;
+  color: #ffffff;
+  padding: 20px 60px;
+  text-decoration: none;
+  margin: 0px 0px 0px 580px;
+}
+#testimonial {
+  background-image: url(../images/testimonial_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 200px;
+}
+blockquote {
+  display: inline-block;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px;
+}
+span {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 400px;
+}
+h4 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+footer {
+  background-color: #000000;
+  padding: 10px;
+}
+.copyright {
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+}
