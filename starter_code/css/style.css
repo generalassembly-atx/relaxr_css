@@ -1,12 +1,158 @@
-/*
-Project Name: Relaxr Landing Page
-Client: Relaxr
-Author: Your Name
-Developer @GA in Austin, TX
-*/
+header {
+  background-image: url("../images/header_bg.jpg");
+  background-size: cover;
+  padding: 0px 0px 500px 0px;
+}
 
+.logo {
+  font-family: open sans;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  padding: 30px 100px 10px 80px;
+}
 
-/******************************************
-/* Custom Styles
-/*******************************************/
+h2 {
+  font-family: open sans;
+  font-weight: semibold;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin: 200px auto 100px;
+  width: 600px;
+}
 
+.yellow {
+  font-family: open sans;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  font size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  background-color: #f9e42e;
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+#benefits {
+  font-family: open sans;
+  font-weight: semibold;
+  font-size: 20px;
+  background: #f0efef;
+  padding: 75px 600px 50px 50px;
+}
+
+p {
+  font-family: open sans;
+  font-weight: light;
+  font-size: 13px;
+  padding: 0px 0px 10px 0px;
+}
+
+#benefits li {
+  font-family: open sans;
+  font-weight: light;
+  font-size: 13px;
+  list-style-type: disc;
+}
+
+#benefits ul {
+  padding-left: 40px;
+}
+
+footer {
+  display: block;
+  background-color: #121212;
+}
+
+#testimonial {
+  margin: 40px auto;
+  width: 300px;
+}
+
+body {
+  background-image: url("../images/testimonial_bg.jpg");
+  background-position: bottom;
+}
+
+blockquote {
+  font-family: open sans;
+  font-weight: light italic;
+  font-size: 18px;
+  text-align: justify;
+  color: white;
+}
+
+span {
+  display: block;
+  font-family: open sans;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.blue {
+  color: white;
+  font-family: open sans;
+  font-weight: extra bold;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  text-align: center;
+}
+
+aside {
+  display: block;
+  background-color: #f9e42e;
+  padding: 20px 0px 20px 0px;
+}
+
+.container {
+  color: #606161;
+  line-height: 25px;
+}
+
+h4 {
+  display: block;
+  color: #f9e42e; /*color*/
+  font-family: open sans;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 30px 100px 10px 80px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+footer li{
+  display: inline-block;
+  padding: 10px;
+}
+
+footer ul {
+  margin: 50px 450px 50px 450px;
+}
+
+.copyright {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-family: open sans;
+  text-align: center;
+  color: white;
+}
