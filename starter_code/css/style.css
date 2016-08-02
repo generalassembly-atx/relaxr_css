@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: JesseMFhoughton
 Developer @GA in Austin, TX
 */
 
@@ -10,3 +10,118 @@ Developer @GA in Austin, TX
 /* Custom Styles
 /*******************************************/
 
+header {
+  background-image: url("../images/header_bg.jpg");
+  padding: 20%;
+  background-size: cover;
+  color: white;
+}
+body {
+  font-family: 'Open Sans';
+}
+/*Relaxr logo*/
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+/*Get peace...*/
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+}
+/*Benefits...*/
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+h4 {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  margin: 25px 500px;
+
+}
+/*Get it now... button*/
+.button-yellow{
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: #f9e42e;
+  padding: 5% 10%;
+  margin: 0 auto;
+}
+#benefits {
+  background: #f0efef;
+  padding: 2%;
+}
+#benefits p {
+  font-size: 13px;
+  font-weight: 300;
+  display: inline-block;
+  width: 360px;
+}
+/*bullet list*/
+#benefits ul {
+  font-size: 13px;
+  font-weight: 300;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin: 20px 20px;
+}
+#testimonial {
+  background-image: url("../images/testimonial_bg.jpg");
+  padding: 20%;
+  background-position: center;
+  background-size: cover;
+}
+blockquote {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+span {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  display: inline-block;
+}
+aside {
+  background: #f9e42e;
+  height: 100px;
+}
+/*Sign up now... button*/
+.button-blue{
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #033048;
+  display: inline-block;
+  padding: 20px 75px;
+  margin: 25px 500px;
+  
+}
+footer {
+  margin-top: 0;
+  background: black
+}
+footer ul {
+  display: inline-block;
+  margin: 25px 500px;
+}
+.copywrite {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+}
