@@ -7,6 +7,105 @@ Developer @GA in Austin, TX
 
 
 /******************************************
-/* Custom Styles
+/* Custom Styles by Niran
 /*******************************************/
+header {
+  background-image: url(../images/header_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+body {
+  font-family: Open Sans;
+}
+.logo {
+  font-weight:800;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-bottom: 10%;
+  color: #ffffff;
+}
 
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  position: relative;
+}
+
+.btn-yellow {
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color:#f9e42e;
+  color: #000000;
+  padding: 20px 60px;
+  margin: 80px 0px 0px 350px;
+  text-decoration: none;
+}
+.button-blue {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  color: #ffffff;
+  padding: 20px 60px;
+  text-decoration: none;
+  margin-left: 500px;
+}
+#benefit-h {
+  font-size: 24px;
+  font-weight: 600;
+}
+p {
+  font-weight: 100;
+  font-size: 13px;
+}
+li {
+  font-weight: 100;
+  font-size: 13px;
+}
+blockquote {
+  font-weight: 100;
+  font-size: 18px;
+  font-style: italic;
+  display: inline-block;
+  color: #ffffff;
+  padding: 10px;
+}
+span {
+  font-weight: bolder;
+  font-size: 18px;
+  position: relative;
+}
+aside {
+  font-weight: bolder;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 20px;
+}
+#testimonial {
+  background-image:url(../images/testimonial_bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+footer {
+  background-color: #000000;
+  padding: 10px;
+
+}
+h4 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align:center;
+  padding-bottom: 20px;
+}
+.copyright {
+  color: #ffffff;
+  text-align: center;
+}
