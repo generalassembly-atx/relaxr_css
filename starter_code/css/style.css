@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: Richard Davis
 Developer @GA in Austin, TX
 */
 
@@ -10,3 +10,146 @@ Developer @GA in Austin, TX
 /* Custom Styles
 /*******************************************/
 
+header {
+  background-image: url('../images/header_bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'open sans';
+  color: white;
+  padding: 50px 0 0 250px;
+}
+
+h2 {
+  font-family: 'open sans';
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+
+header a {
+  font-family: 'open sans';
+  font-size: 14px;
+  font-weight: 800;
+  color: #121212;
+  display: block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  width: 100px;
+  text-align: center;
+  margin: 80px auto;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'open sans';
+  font-size: 30px;
+  font-weight: 600;
+  padding: 50px 0 20px 50px;
+}
+
+#benefits {
+  background-color: #f0efef;
+  padding: 30px 0 30px 50px;
+}
+
+#benefits p {
+  font-family: 'open sans';
+  font-size: 20px;
+  font-weight: 300;
+  width: 470px;
+  padding: 0 0 40px 50px;
+  line-height: 30px;
+
+}
+
+li {
+  font-family: 'open sans';
+  font-size: 20px;
+  font-weight: 300;
+  list-style-type:disc;
+  list-style-position: inside;
+  padding: 10px 10px 10px 80px;
+  width: 350px;
+}
+
+#testimonial {
+  background-image: url('../images/testimonial_bg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+blockquote {
+  font-family: 'open sans';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 50px;
+
+}
+
+span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+  text-align: center;
+}
+
+aside {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 50px;
+  font-family: 'open sans';
+  font-size: 12px;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #033048;
+  padding: 10px 30px;
+}
+
+footer {
+  background-color: #121212;
+  padding-bottom: 30px;
+}
+
+h4 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  font-family: 'open sans';
+  padding: 50px 0 50px 0;
+}
+
+footer ul li {
+  display: inline;
+  padding: 50px;
+
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
