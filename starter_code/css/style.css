@@ -1,12 +1,37 @@
-/*
-Project Name: Relaxr Landing Page
-Client: Relaxr
-Author: Your Name
-Developer @GA in Austin, TX
-*/
+body {
+}
+h1 {
+  color: white;
+  font-weight:bolder;
+  font-size:50px;
+}
+.header{
 
+}
 
-/******************************************
-/* Custom Styles
-/*******************************************/
+.button {
+  height: 50px;
+  width: 15px;
+  background-color: yellow;
+  color:black;
+}
 
+footer {
+  background-color:black;
+  text:white;
+}
+.buttonblue {
+  background-color:navy;
+}
+#testimonial {
+  color: white;
+  background-image:image(images/testimonial_bg.jpg);
+}
+logo {
+  color: yellow;
+}
+#benefits {
+  color: navy;
+  background-color: white;
+  text-decoration:
+}
