@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: Thomas Foster
 Developer @GA in Austin, TX
 */
 
@@ -9,4 +9,139 @@ Developer @GA in Austin, TX
 /******************************************
 /* Custom Styles
 /*******************************************/
+body{
+  text-align: center;
+  font-family: 'Open Sans';
+  display: block;
+  }
 
+  header{
+  background-image:url(../images/header_bg.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+
+}
+aside{
+  background-color:#f9e42e;
+  padding: 20px;
+;
+
+}
+h1{
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  height: 100px;
+  width: 100px;
+  padding: 25px 10px;
+
+}
+h2{
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  padding:70px;
+  font-family: Sans;
+}
+h4{
+  color: #f9e42e;
+  height: 30px;
+
+}
+p{
+  font-weight: 300;
+  font-size: 13px;
+}
+ul{
+  font-weight: 300;
+  font-size: 13px;
+}
+footer{
+  background: #121212;
+  padding:50px;
+  border:10px;
+}
+span{
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+blockquote{
+  padding:130px;
+}
+section{
+  position: relative;
+}
+ol, ul {
+	list-style:disc;
+}
+.benefits{
+ width: 40%;
+padding: 20px;
+right: 200px;
+font-size: 20px;
+color: #606161;
+}
+.benefits h3, p, li{
+ text-align: left;
+}
+.benefits h3{
+color: #033048;
+}
+#testimonial{
+  background-image:url(../images/testimonial_bg.jpg);
+  height: 300px;
+  color: white;
+  font-weight: 300;
+  font-style: Italic;
+  font-size: 18px;
+  margin: 0 auto;
+  padding-top: 58px;
+
+}
+
+
+}
+.button{
+  background:#f9e42e;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+.button yellow{
+  width: 115px;
+  height: 25px;
+  padding: 10px 50px;
+  border:1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button blue{
+  font-weight: 900;
+  font-size: 12px;
+  color: white;
+  background-color: #033048;
+  color: white;
+
+}
+.logo{
+  font-weight:900;
+  font-size:24px;
+  margin: 20px 10px;
+  padding: 10px;
+
+}
+.copyright{
+  font-size: -10px;
+  font-weight: 600;
+  color: #606161;
+
+}
+footer li{
+ display:inline-block
+
+}
