@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author:Sean Martin Lewis
 Developer @GA in Austin, TX
 */
 
@@ -9,4 +9,162 @@ Developer @GA in Austin, TX
 /******************************************
 /* Custom Styles
 /*******************************************/
+body {
+  font-family: "Open Sans"
+  height: 200px;
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+}
 
+.container {
+  height:200px;
+  width: 200px;
+}
+
+
+header{
+  background-image: url("http://il2.picdn.net/shutterstock/videos/1037881/thumb/1.jpg");
+  height: 320px;
+}
+
+h1,.logo {
+  color: white;
+  font-family: "Open Sans";
+  padding: 30px;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 24px;
+}
+h2 {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 550;
+  font-size: 24px;
+  padding-left: 50%;
+  padding-top: 50px;
+  display: inline-block;
+  width: 392px;
+
+}
+
+.button {
+  text-decoration:none;
+  font-weight: 600;
+  border-radius: 5px;
+  font-family: "Open Sans";
+  padding: 5px 30px;
+  font-size: 14px;
+
+
+}
+.button.yellow {
+  background-color: #f9e42e;
+  color: #121212;
+  margin-top: 30px;
+  margin-left: 110%;
+  display: block;
+  width: 80px;
+}
+.button.blue {
+  background-color: #033048;
+  color: white;
+  border-top: 20px solid #f9e42e;
+  margin-left: 35%;
+  display: block;
+  width: 100px;
+}
+
+#benefits {
+  background-color: #f0efef;
+  height: 290px;
+  padding-bottom: 0;
+  font-weight: 200;
+  font-size: 13px;
+  font-family: "Open Sans";
+
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #121212;
+  font-family: "Open Sans";
+  padding: 40px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+}
+p{
+  font-weight: 200;
+  font-size: 13px;
+  font-family: "Open Sans";
+  padding-top: 10px;
+  padding-left:20%;
+  padding-bottom: 15px;
+  display: inline-block;
+  width: 392px;
+}
+ul{
+  font-weight: lighter;
+  font-size: 13px;
+  width: 100%;
+  list-style-type: inherit;
+  font-family: "Open Sans";
+  padding-left: 45%;
+  padding-top: 15px;
+}
+
+li{
+  padding: 3px 0;
+  display: inline-block;
+}
+
+#testimonial{
+  font-family: "Open Sans";
+  background-image: url("http://il2.picdn.net/shutterstock/videos/1037881/thumb/1.jpg");
+  text-align: center;
+
+}
+blockquote{
+  padding-top: 50px;
+  padding-left: 65%;
+  width:300px;
+  color: white;
+  font-size: 18px;
+  font-weight: 4;
+  font-style: italic;
+
+}
+
+span{
+  font-size: 18px;
+  font-weight: 900;
+  display: block;
+  padding: 15px;
+  text-align: center;
+}
+
+aside{
+  background-color: #f9e42e;
+  height: 60px;
+}
+
+h4.logo{
+  color: #f9e42e;
+  font-family: "Open Sans";
+  padding-left: 43%;
+}
+footer {
+  background-color: black;
+  height: 220px;
+  display: block;
+}
+
+.copyright{
+  font-weight: 300;
+  font-size: 9px;
+  color: white;
+  padding-left: 40%;
+}
