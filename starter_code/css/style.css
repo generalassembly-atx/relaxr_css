@@ -1,12 +1,142 @@
-/*
-Project Name: Relaxr Landing Page
-Client: Relaxr
-Author: Your Name
-Developer @GA in Austin, TX
-*/
+img {
+  background-position: relative;
+  width: 100%;
+}
 
+header {
+  height: 100%;
+}
 
-/******************************************
-/* Custom Styles
-/*******************************************/
+.container h1, h2, a {
+  position: absolute;
+}
 
+.container h1 {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 24px;
+  font-family: serif;
+  color: white;
+}
+
+.container h2 {
+  top: 250px;
+  left: 25%;
+  font-size: 50px;
+  color: white;
+  font-weight: semibold;
+}
+
+.container a {
+  font-weight: extrabold;
+}
+
+.yellow-button {
+  background-color: #f9e42e;
+  text-decoration: none;
+  left: 45%;
+  top: 370px;
+  padding: 20px;
+  font-size: 25px;
+  color: #033048;
+  font-weight: 14px;
+  border-radius: 5px;
+}
+
+#benefits {
+  background-color: #f0efef;
+  height: 100%;
+}
+
+#benefits h3 {
+  position: relative;;
+  font-weight: 20px;
+  font-size: 30px;
+  left: 40px;
+  margin: 20px 20px 20px 20px;
+  color: navy;
+}
+
+#benefits p ul {
+  font-weight: 13px;
+}
+
+p, li {
+  position: relative;
+  left: 65px;
+  padding: 10px;
+}
+
+li {
+  left: 100px;
+  list-style: disc;
+}
+
+p {
+  font-weight: ;
+}
+
+#testimonial {
+  height: 100%;
+}
+
+#testimonial blockquote {
+  position: relative;
+  font-style: italic;
+  bottom: 300px;
+  color: white;
+  text-align: center;
+}
+
+#testimonial span {
+  font-weight: 18px;
+}
+
+aside {
+position: relative;
+  background-color: yellow;
+  bottom: 200px;
+  padding: 20px;
+}
+
+aside .button-blue {
+  position: relative;
+  left: 47%;
+  background-color: #033048;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  height: 200px;
+}
+
+footer h4 {
+  text-align: center;
+  color: yellow;
+  font-size: 22px;
+}
+
+footer a{
+  display: block;
+  left: 38%;
+}
+
+footer a.facebook {
+  bottom: 10px;
+}
+
+footer a.twitter {
+  left: 45%;
+  margin: 0 auto;
+}
+
+footer .copyright {
+  color: white;
+  left: 45%;
+}
