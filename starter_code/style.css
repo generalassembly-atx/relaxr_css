@@ -1,0 +1,101 @@
+body{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Open Sans';
+  display: block;
+}
+.rlx{
+  text-align: left;
+  margin: 20px 20px 20px 120px;
+  padding: 20px;
+  font-weight: 900;
+
+}
+#pomind{
+  font-weight: 400;
+  margin: 80px auto;
+}
+header{
+  background: url("images/header_bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  color: white;
+}
+#get{
+  background-color: #f9e42e;
+  color: black;
+  padding: 10px 50px;
+  border: 1px black solid;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+}
+.benefits{
+  width: 40%;
+  padding: 20px;
+  right: 200px;
+  font-size: 20px;
+  padding: 5% 15%;
+  color: #606161;
+}
+section{
+  background-color: #f0efef;
+  position: relative;
+}
+.benefits h3{
+  color: #033048;
+}
+.benefits h3, p, li{
+  text-align: left;
+}
+p, li{
+  font-weight: light;
+  font-size: 13px;
+}
+.testimonial{
+  background: url("images/testimonial_bg.jpg");
+  height: 250px;
+  color: white;
+}
+#testimonial{
+  width: 50%;
+  font-style: italic;
+  font-weight: light;
+  font-size: 18px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+#rights{
+  font-size: 9px;
+  font-weight: 500;
+}
+.signup{
+  background-color: #f9e42e;
+  height: 50px;
+}
+#signUpButton{
+  background-color: #033048;
+  color: white;
+  border: 1px black solid;
+  border-radius: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 5px 40px;
+}
+footer{
+  background: #121212;
+  color: white;
+  height: 170px;
+  margin: -30px 0 0 0;
+}
+.logos, .logos a{
+  padding: 10px;
+}
+footer h3{
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 900;
+  padding-top: 15px;
+}
