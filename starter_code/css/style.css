@@ -1,12 +1,110 @@
-/*
-Project Name: Relaxr Landing Page
-Client: Relaxr
-Author: Your Name
-Developer @GA in Austin, TX
-*/
 
+body {
+  font: 'Open Sans', sans-serif;
+}
 
-/******************************************
-/* Custom Styles
-/*******************************************/
+header {
+  background: url('images/header_bg.jpg') repeat;
+}
 
+header div .container {
+  position: absolute;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+header button {
+  background-color: #f9e42e;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.benefits {
+  background-color: #f0efef;
+}
+
+.benefits h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.benefits p {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.benefits li {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.testimonial {
+  background: url('images/testimonial_bg.jpg');
+}
+
+ .testimonial blockquote {
+  font-size: 18px;
+  font-weight: 200;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.testimonial p span {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.testimonial p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.sign_up {
+  background-color: #f9e42e;
+}
+
+.sign_up button {
+  background-color: #033048;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+footer h1 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+footer .social-providers {
+  margin: 0 auto;
+}
+
+footer .social-providers a .twitter {
+
+}
+
+footer .social-providers a .facebook {
+  float: left;
+}
+
+footer p {
+  font-size: 9px;
+  font-weight: 400;
+  margin: 0 auto;
+}
