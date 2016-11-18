@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: Vinh Huynh
 Developer @GA in Austin, TX
 */
 
@@ -10,3 +10,138 @@ Developer @GA in Austin, TX
 /* Custom Styles
 /*******************************************/
 
+body {
+  margin: 0 auto;
+  width: 600px;
+}
+
+header {
+  width: 600px;
+  height: 350px;
+  background-size: contain;
+  color: white;
+  background-image: url("../images/header_bg.jpg");
+}
+
+header .container .logo{
+  font: 800 24px "Open Sans", sans-serif;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+
+h2 {
+  font: 600 20px "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 55px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-yellow {
+  font: 800 14px "Open Sans", sans-serif;
+  background-color: yellow;
+  display: block;
+  margin: 40px auto 0;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+#benefits {
+  background-color: #efefee;
+  height: 300px;
+}
+
+h3 {
+  padding: 50px 0 0 50px;
+  font: 600 20px "Open Sans", sans-serif;
+}
+
+#benefits .container p {
+  padding: 15px 0 0 50px;
+  font: 300 13px "Open Sans", sans-serif;
+}
+
+#benefits .container ul {
+  padding: 30px 0 0 100px;
+  font: 300 13px "Open Sans", sans-serif;
+  list-style-type: disc;
+  width: 210px;
+  text-align: justify;
+}
+
+#testimonial {
+  background-image: url("../images/testimonial_bg.jpg");
+  width: 600px;
+  height: 200px;
+  background-size: cover;
+}
+
+blockquote {
+  font: italic 300 18px "Open Sans", sans-serif;
+  color: white;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#testimonial .container p {
+  color: white;
+  text-align: center;
+  font: 600 18px "Open Sans", sans-serif;
+  padding-top: 5px;
+}
+
+aside {
+  background-color: yellow;
+  height: 50px;
+  width: 600px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.button-sign-up {
+  background-color: #043049;
+  font: 800 14px "Open Sans", sans-serif;
+  display: block;
+  margin: 10px auto;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+footer {
+  background-color: #121211;
+}
+
+footer .logo {
+  color: yellow;
+  text-align: center;
+  font: 800 24px "Open Sans", sans-serif;
+  padding-top: 30px;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 30px 10px;
+  margin: 0 auto;
+}
+
+footer img {
+  width: 70%;
+}
+
+footer p {
+  font: 600 9px "Open Sans", sans-serif;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
