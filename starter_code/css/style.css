@@ -9,4 +9,93 @@ Developer @GA in Austin, TX
 /******************************************
 /* Custom Styles
 /*******************************************/
+body{
+  width:70%;
+  margin:auto;
+  font-family: Arial,Helvetica,sans-serif;
+  text-align: center;
+}
 
+header{
+  background: url("../images/header_bg.jpg") center no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+header, #benefits{
+  height:250px;
+}
+
+.button{
+  text-decoration:none;
+  padding: 10px 35px;
+}
+.yellow{
+  background-color:yellow;
+  color:black;
+}
+.blue{
+  background-color: darkblue;
+  color:white;
+}
+
+header .logo{
+  text-align: left;
+}
+
+#benefits{
+  background-color: lightgrey;
+  text-align: left;
+}
+#benefits .container{
+  width:60%;
+}
+
+#testimonial{
+  height:150px;
+  background:url("../images/testimonial_bg.jpg") center no-repeat;
+  background-size: cover;
+  color:white;
+}
+blockquote{
+  font-style: italic;
+}
+blockquote span{
+  display: block;
+  font-size: 1.5em;
+  font-style: normal;
+  padding-top:5px;
+}
+
+header,section,aside,footer{
+  padding:45px;
+}
+aside{
+  height:10px;
+  background-color: yellow;
+}
+
+footer{
+  background-color: black;
+  color:white;
+}
+footer .logo{
+  color:yellow;
+}
+footer ul{
+  padding: 0;
+}
+footer ul li{
+  display: inline-block;
+  list-style: none;
+  padding:5px;
+}
+footer img{
+  width:50%;
+}
+.logo{
+  font-weight: bold;
+}
+.copyright{
+  font-size: .75em;
+}
