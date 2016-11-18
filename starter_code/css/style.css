@@ -1,12 +1,119 @@
-/*
-Project Name: Relaxr Landing Page
-Client: Relaxr
-Author: Your Name
-Developer @GA in Austin, TX
-*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
 
+header {
+  background-image: url("../images/header_bg.jpg");
+  height: 100%;
+  width: 100%;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;;
+}
 
-/******************************************
-/* Custom Styles
-/*******************************************/
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  padding-top: 20px;
+  padding-left: 50px;
+}
 
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#get-it {
+  background-color: #f9e42e;
+  margin: auto;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 40px 10px 40px;
+}
+
+#benefits {
+  background-color: #f0efef;
+  padding: 30px 0px 30px 30px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#testimonial {
+  background-image: url("../images/testimonial_bg.jpg");
+}
+
+.logo2 {
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+blockquote {
+  text-align:center;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 18px;
+  color: white;
+  height: 400px;
+  width: 100%;
+  padding-top: 100px;
+  padding-right: 100px;
+  margin: 0 auto;
+}
+
+blockquote span {
+  text-weight: 600;
+  text-height: 18px;
+  text-align: center;
+}
+
+.buttonblue {
+  background-color: #033048;
+  margin: auto;
+  text-align: center;
+  font-weight: 800px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px 10px 40px;
+}
+
+aside {
+  background-color: #f9e42e;
+  padding-top: 50px;
+}
+footer {
+  background-color: #121212;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;;
+  z-index: 1;
+  padding-bottom: 50px;
+}
+.social {
+  margin: 0 auto;
+}
+.copyright {
+  font-size: 9px;
+  font-weight: 600px;
+  color: #fff;
+  padding-bottom: 5px;
+  text-align: center;
+}
