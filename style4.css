@@ -1,0 +1,36 @@
+h1 {
+  font-weight: bold;
+}
+header {
+background-image: url("../images/header_bg.jpg");
+}
+
+main {
+  height: 100px;
+  width: 120px;
+  background-image: url("../images/header_bg.jpg");
+}
+.benefits {
+  backgroud-color: grey;
+}
+h2 {
+  color: blue;
+}
+
+p {
+  color: black;
+}
+
+ul {
+  font-style: italic;
+}
+li {
+  color: grey:
+}
+footer {
+  background-image: url("../images/testimonial_bg.jpg");
+}
+.testimonial
+a {
+
+}
