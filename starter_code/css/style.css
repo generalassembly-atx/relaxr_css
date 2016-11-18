@@ -10,3 +10,53 @@ Developer @GA in Austin, TX
 /* Custom Styles
 /*******************************************/
 
+header {
+ background-image: url("../images/header_bg.jpg");
+ }
+
+#toplogo {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: semibold;
+}
+
+.buttonyellow {
+  background-color: #f9e42e;
+  font: bolder 14px;
+  border-radius: 5px;
+}
+
+h3 {
+  font: 20px;
+  font-weight: lighter;
+}
+
+#benefits container {
+  background-color: #f0efef;
+}
+
+blockquote {
+  font: light 13px;
+}
+
+.buttonblue {
+  background-color: #033048;
+  font: 12px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+#bottomlogo {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.copyright {
+  font-size: 9px;
+  font-weight: semibold;
+}
