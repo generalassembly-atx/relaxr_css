@@ -1,7 +1,7 @@
 /*
 Project Name: Relaxr Landing Page
 Client: Relaxr
-Author: Your Name
+Author: David Leseten
 Developer @GA in Austin, TX
 */
 
@@ -9,4 +9,147 @@ Developer @GA in Austin, TX
 /******************************************
 /* Custom Styles
 /*******************************************/
+body{
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  display: block;
+  box-sizing: border-box;
+}
+header .container{
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+  padding-top: 40px;
+  background-image: url("../images/header_bg.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+h1.logo{
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: 800;
+  font-family: 'Open Sans';
+  display: inline-block;
+  width: 900px;
+  text-align: left;
+}
+h4.logo{
+  color: #f9e42e;
+  font-size: 3em;
+  font-weight: 800;
+  font-family: 'Open Sans';
+}
+header h2{
+  color: #ffffff;
+  margin-top: 160px;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  font-family: 'Open Sans';
+}
+#benefits .container{
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 600px;
+  width: 1200px;
+  padding: 120px;
+  padding-top: 100px;
+  background-color: #efefee;
+}
+#testimonial .container{
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 390px;
+  width: 1200px;
+  background-image: url("../images/testimonial_bg.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 300px;
+}
+blockquote{
+  font-size: 2em;
+  font-weight: 300;
+  font-style: italic;
+}
+blockquote span{
+  display: block;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 20px;
+}
+h3{
+  color: #033048;
+  font-size: 3em;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  margin-bottom: 50px;
+}
+ul{
+  list-style: disc;
+}
+#benefits li, p{
+  color: #606161;
+  font-size: 2em;
+  font-weight: 300;
+  font-family: 'Open Sans';
+}
+#benefits p{
+  margin-bottom: 30px;
+}
+#benefits li{
+  margin-left: 100px;
+}
+aside{
+  display: block;
+  height: 150px;
+  background-color: #f9e42e;
+  text-align: center;;
+}
+.button{
+  margin: 50px auto;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.blue{
+  background-color: #053049;
+  font-size: 1.2em;
+  padding-top: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 800;
 
+}
+.yellow{
+
+  background-color: #f9e42e;
+  font-size: 1.2em;
+  padding-top: 14px;
+  color: #033048;
+  text-decoration: none;
+  font-weight: 800;
+}
+footer{
+  text-align: center;
+  height: 300px;
+  box-sizing: border-box;
+  padding-top: 70px;
+}
+footer li{
+  display: inline-block;
+  width: 70px;
+}
+footer ul{
+  margin: 50px 0;
+}
+footer .copyright {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1em;
+}
